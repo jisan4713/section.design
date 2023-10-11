@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.our-service{
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.service-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.service-title h5{
+   font-family: 'Dancing Script', cursive;
+   color: rgb(238, 166, 31);
+   font-size: 40px;
+}
+.service-wraper{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.single-service{
+    width: 350px;
+    height: auto;
+    background: #ffffff;
+    border: 1px solid rgb(238, 233, 233);
+    padding: 20px;
+    margin: 10px;
+}
+.single-service a{
+    text-decoration: none;
+    color: black;
+}
+.single-service p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.fa-solid{
+    font-size: 60px;
+    color: rgb(231, 147, 37);
+    margin-bottom: 15px;
+}
+
+
+/* about css...........................  */
+.section-about{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.right-text{
+    margin-left: 30px;
+}
+.boxs{
+    display: flex;
+}
+.right-text>p{
+    margin-top: 20px;
+}
+.box1{
+    width: 350px;
+    height: 180px;
+    background:blue;
+    color: white;
+    margin:20px 10px 0px 0px;
+    box-shadow: 0px 5px red;
+}
+.box1,.fa-star>p{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.box2{
+    width: 350px;
+    height: 180px;
+    background:rgb(228, 28, 28);
+    color: white;
+    margin:20px 10px 0px 0px;
+    box-shadow: 0px 5px blue;
+}
+.box2,.fa-star>p{
+    text-align: center;
+    padding-top: 30px;
+}
+.right-text {
+    WIDTH: auto;
+    WIDTH: 655PX;
+}
+
+/* small devices......... */
+
+ (min-width:368px) and (max-width:468px){
+    .service-wraper{
+        display: block;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    .wraper{
+        display: block;
+        justify-content: space-evenly;
+    }
+    .left-img img{
+        width: 300px;
+        height: auto;
+        padding-left: 25px;
+    }
+    img {
+        WIDTH: 608PX;
+        HEIGHT: 425PX;
+    }
+
+/* Extra Small Devices............  */
+
+    (max-width:367px){
+    body{
+        background: rgba(240, 235, 235, 0.425);
+    }
+    .service-wraper{
+        display: block;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    .single-service{
+        width: 280px;
+    }
+    .wraper{
+        display: block;
+        justify-content: space-evenly;
+    }
+    .left-img img{
+        width: 320px;
+        height: auto;
+        padding-right: 25px;
+    }
+}
